@@ -1,5 +1,6 @@
 "use client";
 
+import Services from "@/app/components/Services";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
@@ -88,7 +89,7 @@ const services = [
 const ServicesPage = () => {
   return (
     <>
-      {/* Header Section */}
+      <Services />
       <section className="py-20 px-4 md:px-8 bg-gradient-to-br from-green-50 to-green-100">
         <div className="max-w-6xl mx-auto text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-green-800 mb-4">

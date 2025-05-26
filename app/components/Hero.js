@@ -7,6 +7,26 @@ import Link from "next/link";
 
 const rotatingData = [
   {
+    text: "Welcome to TREBO Construction Company",
+    image: "/IMG-20250524-WA0020.jpg",
+    description: (
+      <>
+        TREBO Construction is a proudly Zimbabwean company delivering excellence
+        in plumbing, deckpane hiring, and house construction services. With a
+        reputation built on quality, reliability, and professional
+        craftsmanship, we serve both residential and commercial clients across
+        Zimbabwe.
+        <br />
+        <br />
+        Whether you're building your dream home, developing housing units, or in
+        need of modern plumbing or construction support systems — TREBO is your
+        trusted partner.
+        <br />
+        Let us help you build with confidence, strength, and precision.
+      </>
+    ),
+  },
+  {
     text: "Reliable Construction",
     image: "/hero.jpg",
     description:
@@ -22,7 +42,7 @@ const rotatingData = [
     text: "Outstanding Workmanship",
     image: "/hero1.jpeg",
     description:
-      "With over 20 years of industry experience, we bring precision and care to every project.",
+      "With over 5 years of industry experience, we bring precision and care to every project.",
   },
 ];
 
@@ -48,7 +68,7 @@ const Hero = () => {
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -20 }}
               transition={{ duration: 0.5 }}
-              className="text-4xl md:text-5xl font-bold text-green-700 leading-tight"
+              className="text-3xl md:text-4xl font-bold text-green-700 leading-tight"
             >
               {rotatingData[index].text}
             </motion.h1>

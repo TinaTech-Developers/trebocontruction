@@ -86,12 +86,16 @@ const AboutPage = () => {
             </Link>
           </div>
           <div className="relative h-80 w-full rounded-xl overflow-hidden shadow-lg">
-            <Image
-              src="/about-image.jpg"
-              alt="Our Team at Work"
-              fill
-              className="object-cover"
-            />
+            <video
+              className="object-cover w-full h-full"
+              autoPlay
+              loop
+              muted
+              playsInline
+            >
+              <source src="/VID-20250524-WA0035.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
           </div>
         </div>
       </section>

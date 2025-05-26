@@ -1,51 +1,26 @@
 "use client";
 
 import { motion } from "framer-motion";
-import {
-  Wrench,
-  Building2,
-  Droplet,
-  ShieldCheck,
-  Clock8,
-  Hammer,
-} from "lucide-react";
+import { Droplet, Layers, Home } from "lucide-react";
 
 const services = [
   {
-    title: "General Plumbing",
+    title: "Plumbing Services",
     description:
-      "From pipe repairs to installations, we ensure reliable and clean water flow.",
+      "Comprehensive plumbing for residential and commercial projects: new installations, solar geysers, pressure pumps, maintenance, and reticulation systems.",
     icon: <Droplet className="w-8 h-8 text-green-700" />,
   },
   {
-    title: "Construction & Renovation",
+    title: "Deckpane Hiring",
     description:
-      "New builds, home extensions, or remodeling — we’ve got it covered.",
-    icon: <Building2 className="w-8 h-8 text-green-700" />,
+      "Reliable hire of steel and aluminum deckpanes for slab work and concrete structures. Fast delivery, competitive rates, and expert support.",
+    icon: <Layers className="w-8 h-8 text-green-700" />,
   },
   {
-    title: "Emergency Repairs",
+    title: "House Construction",
     description:
-      "24/7 rapid-response team for burst pipes and urgent plumbing issues.",
-    icon: <Clock8 className="w-8 h-8 text-green-700" />,
-  },
-  {
-    title: "Leak Detection",
-    description:
-      "State-of-the-art tools to find and fix hidden leaks before they cause damage.",
-    icon: <Wrench className="w-8 h-8 text-green-700" />,
-  },
-  {
-    title: "Bathroom Remodeling",
-    description:
-      "Elegant designs, efficient installations, and quality finishes.",
-    icon: <Hammer className="w-8 h-8 text-green-700" />,
-  },
-  {
-    title: "Licensed & Insured",
-    description:
-      "We’re certified, insured, and committed to safety and quality work.",
-    icon: <ShieldCheck className="w-8 h-8 text-green-700" />,
+      "Full-service residential construction: foundations, brickwork, roofing, project management, duplexes, townhouses, and renovations.",
+    icon: <Home className="w-8 h-8 text-green-700" />,
   },
 ];
 
@@ -63,8 +38,9 @@ const Services = () => {
           Our Core Services
         </motion.h2>
         <p className="text-gray-600 mb-12 max-w-2xl mx-auto">
-          We offer a wide range of construction and plumbing services tailored
-          to your needs — with precision, safety, and professionalism.
+          At TREBO, we provide specialized solutions in plumbing, formwork
+          hiring, and full-scale home construction — built on quality, safety,
+          and modern practices.
         </p>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">

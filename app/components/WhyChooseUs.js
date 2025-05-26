@@ -4,22 +4,34 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 const features = [
   {
-    image: "/hero.jpg",
-    title: "Expert Craftsmanship",
+    image: "/IMG-20250524-WA0005.jpg",
+    title: "Experienced and certified team",
     description:
-      "Our licensed professionals bring decades of experience and unmatched attention to detail.",
+      "Our Team brings practical skills from real construction projects, backed by official training and licenses—ensuring safe, high-quality, and compliant work you can trust.",
   },
   {
-    image: "/plumbing.webp",
-    title: "Premium Materials",
+    image: "/con.avif",
+    title: "Transparent pricing and project planning",
     description:
-      "We use high-quality, durable materials to ensure long-lasting results on every project.",
+      "Our clients receive clear, upfront cost estimates with no hidden fees, along with a well-structured timeline and scope of work—ensuring trust, accountability, and smoother project execution from start to finish.",
   },
   {
-    image: "/hero1.jpeg",
-    title: "Dedicated Support",
+    image: "/IMG-20250524-WA0007.jpg",
+    title: "Quality assurance across all services",
     description:
-      "We guide you from consultation to completion, ensuring a smooth and stress-free experience.",
+      "Every project is completed to high standards through consistent checks, skilled workmanship, and strict adherence to building regulations—ensuring reliable, long-lasting results in every service we offer.",
+  },
+  {
+    image: "/IMG-20250524-WA0027.jpg",
+    title: "Committed to Zimbabwe’s housing and infrastructure growth",
+    description:
+      "We actively contribute to the nation’s development by delivering reliable construction services that support modern, sustainable homes and essential infrastructure for communities across the country.",
+  },
+  {
+    image: "/reliable.webp",
+    title: "Reliable customer service and aftercare",
+    description:
+      "We’re here for you before, during, and after the project—providing prompt support, clear communication, and dependable follow-up to ensure your satisfaction and long-term peace of mind.",
   },
 ];
 const cardVariants = {

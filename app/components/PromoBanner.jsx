@@ -25,7 +25,7 @@ export default function PromoBanner() {
         viewport={{ once: true }}
       >
         <h2 className="text-white text-3xl md:text-4xl font-bold mb-4">
-          Limited Time Offer – 20% Off All Plumbing Services!
+          Special Offer – Affordable Rates on All Plumbing Services!
         </h2>
         <p className="text-white max-w-xl mb-6">
           Book your project this month and save big. Fast, reliable service with

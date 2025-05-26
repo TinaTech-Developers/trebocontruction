@@ -7,7 +7,7 @@ import Image from "next/image";
 const projects = [
   {
     title: "Residential Plumbing Upgrade",
-    image: "/images/project1.jpg",
+    image: "/plambing.png",
     description: "Modernized the entire plumbing system for a suburban home.",
   },
   {
@@ -17,17 +17,17 @@ const projects = [
   },
   {
     title: "Bathroom Remodel",
-    image: "/images/project3.jpg",
+    image: "/bath.png",
     description: "Full bathroom renovation with premium fixtures and tiles.",
   },
   {
     title: "Kitchen Plumbing Installation",
-    image: "/images/project4.jpg",
+    image: "/plumbing.webp",
     description: "Installed high-efficiency plumbing in a newly built kitchen.",
   },
   {
     title: "Industrial Pipe Repair",
-    image: "/images/project5.jpg",
+    image: "/industry.png",
     description: "Quick and reliable pipe repairs in a factory setting.",
   },
   {
