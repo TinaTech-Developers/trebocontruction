@@ -7,32 +7,28 @@ const projects = [
   {
     category: "Plumbing",
     title: "Residential Plumbing Installation",
-    image: "/projects/plumbing1.jpg",
+    image: "/plambing.png",
   },
   {
     category: "Construction",
     title: "Modern Home Construction",
-    image: "/projects/construction1.jpg",
+    image: "/IMG-20250527-WA0021.jpg",
   },
   {
     category: "Decking",
     title: "Outdoor Deck with Pergola",
-    image: "/projects/decking1.jpg",
+    image: "/IMG-20250524-WA0027.jpg",
   },
   {
     category: "Plumbing",
     title: "Commercial Pipe Refitting",
-    image: "/projects/plumbing2.jpg",
+    image: "/industry.png",
   },
-  {
-    category: "Construction",
-    title: "Retail Store Build-Out",
-    image: "/projects/construction2.jpg",
-  },
+
   {
     category: "Decking",
     title: "Poolside Wooden Deck",
-    image: "/projects/decking2.jpg",
+    image: "/IMG-20250524-WA0026.jpg",
   },
 ];
 

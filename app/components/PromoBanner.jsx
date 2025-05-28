@@ -6,17 +6,15 @@ import Link from "next/link";
 export default function PromoBanner() {
   return (
     <section className="relative h-96 md:h-[28rem] overflow-hidden">
-      {/* Background Image */}
       <div className="absolute inset-0">
         <img
-          src="/images/promo-bg.jpg" // replace with your own image
+          src="/plumb.jpg"
           alt="Special Promotion"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-black bg-opacity-60" />
       </div>
 
-      {/* Content */}
       <motion.div
         className="relative z-10 flex flex-col justify-center items-center text-center h-full px-6"
         initial={{ opacity: 0, y: 30 }}

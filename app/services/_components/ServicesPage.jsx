@@ -10,42 +10,35 @@ const services = [
     title: "Plumbing Installation & Repair",
     description:
       "Expert plumbing services for residential and commercial properties including installation, maintenance, and emergency repairs.",
-    image: "/services/plumbing-install.jpg",
+    image: "/plumbing.webp",
     category: "Plumbing Specialists",
   },
   {
     title: "Hot Water System Installation",
     description:
       "Installation and maintenance of energy-efficient hot water systems tailored to your household or commercial needs.",
-    image: "/services/hot-water.jpg",
+    image: "/IMG-20250527-WA0043.jpg",
     category: "Plumbing Specialists",
   },
   {
     title: "Bathroom & Kitchen Fit-Outs",
     description:
       "Complete plumbing for new or renovated kitchens and bathrooms including fixture installation and layout planning.",
-    image: "/services/fitouts.jpg",
+    image: "/1-Built-in-Kitchen-scaled.webp",
     category: "Plumbing Specialists",
   },
   {
     title: "Backflow Prevention Testing",
     description:
       "Ensure clean water supply by testing, repairing, and installing certified backflow prevention systems.",
-    image: "/services/backflow.jpg",
+    image: "/banner-backflow-testing-2.jpg",
     category: "Plumbing Specialists",
   },
   {
     title: "Drain Cleaning & Unblocking",
     description:
       "Fast and effective removal of blockages using high-pressure jets and CCTV inspection tools.",
-    image: "/services/drain-cleaning.jpg",
-    category: "Plumbing Specialists",
-  },
-  {
-    title: "Gas Plumbing & Fitting",
-    description:
-      "Licensed gas fitting services including appliance connections, leak testing, and gas line installations.",
-    image: "/services/gas-plumbing.jpg",
+    image: "/plambing.png",
     category: "Plumbing Specialists",
   },
 
@@ -53,35 +46,35 @@ const services = [
     title: "Leak Detection & Pipe Maintenance",
     description:
       "State-of-the-art leak detection tools and efficient pipe replacement or maintenance solutions.",
-    image: "/services/leak-detection.jpg",
+    image: "/water-leak-detection-and-prevention.jpg",
     category: "Plumbing Specialists",
   },
   {
     title: "Deckpane & Scaffold Hiring",
     description:
       "High-quality deckpanes and scaffolding equipment available for hire — safe, reliable, and affordable.",
-    image: "/services/deckpane-hire.jpg",
+    image: "/IMG-20250524-WA0015.jpg",
     category: "Decking Specialists",
   },
   {
     title: "Formwork & Edge Protection",
     description:
       "Hire durable formwork systems and edge protection tools for safe construction workflows.",
-    image: "/services/formwork.jpg",
+    image: "/IMG-20250524-WA0009.jpg",
     category: "Decking Specialists",
   },
   {
     title: "Residential Construction",
     description:
       "From foundations to finishes — full-service construction for homes, renovations, and expansions.",
-    image: "/services/residential.jpg",
+    image: "/IMG-20250527-WA0021.jpg",
     category: "Construction Specialists",
   },
   {
     title: "Commercial & Industrial Projects",
     description:
       "Planning and executing large-scale commercial and industrial builds with safety and efficiency.",
-    image: "/services/commercial.jpg",
+    image: "/IMG-20250524-WA0012.jpg",
     category: "Construction Specialists",
   },
 ];
